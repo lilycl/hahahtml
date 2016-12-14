@@ -1,0 +1,188 @@
+@reset-global mobile;
+
+ul, ol {
+  @reset-nested list;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 100%;
+  overflow-x:hidden;
+  font-family: Microsoft YaHei, Source Sans Pro, Helvetica, sans-serif;
+  user-select: none;
+  background: #F2F2F2;
+  height: 100%;
+  font-size: 11px;
+}
+
+html {
+  height: 100%;
+  font-family: '微软雅黑',arial,helvetica,clean,sans-serif;
+  font-size: 62.5%;
+  list-style: none;
+  background:#fff;
+  max-width: 100%;
+  overflow-x:hidden;
+}
+
+input, button {
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+ul,li,ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+#app {
+  color: #2c3e50;
+  width: 100%;
+  height: 100%;
+}
+
+#app a {
+  text-decoration: none;
+}
+
+.clearfloat {zoom:1;margin-bottom: 1rem;}
+.clearfloat::after {clear:both;content:'.';display:block;width: 0;height: 0;visibility:hidden;}
+
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input{
+  padding:0;margin:0;
+}
+
+li{
+  list-style:none;
+}
+
+img{
+  border:none;vertical-align:top;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:active{
+  background: #fafafa;
+}
+
+i{
+  font-style: normal;
+}
+
+input,textarea,select,lable{ 
+  outline:none; border:none;
+}
+
+em{
+  font-style:normal;
+}
+
+table { 
+  border-collapse: collapse; 
+}
+
+input { 
+  -webkit-appearance : none; 
+}
+
+.fl{
+  float:left;
+}
+
+.fr{
+  float:right;
+}
+.clear{
+  zoom:1;
+}
+
+.clear:after{
+  content:"";display:block;clear:both;
+}
+
+.w-100{
+  width:100%; background:#fff;
+}
+
+.w-320{
+  width:320px; margin: 0 auto; min-height: 100%;
+}
+
+.w-300{
+  width:300px; margin: 0 auto;
+}
+
+.w-290{
+  width:290px; margin: 0 auto;
+}
+
+.dn{
+  display: none;
+}
+
+.db{
+  display: block;
+}
+
+.mt10{
+  margin-top: 10px;
+}
+
+.mb10{
+  margin-bottom:10px;
+}
+
+.xm-tab{
+  width:320px; 
+  height:40px; 
+  border-bottom: 0.5px solid #EDEDED; 
+  line-height: 40px;background: #fff;
+}
+
+.xm-tab ul{
+  height:42px;
+}
+
+.xm-tab li{
+  float: left;
+}
+
+.xm-tab a{
+  font-size:11px; 
+  color: #000; 
+  display: block; 
+  height:38px; 
+  line-height: 40px;
+  margin: 0px 14px;
+  padding:0 10px;
+}
+
+.xm-tab .current{
+  border-bottom:2px solid #000; 
+  color:#000;
+}
+
+
+.xm-bottom{
+  position: fixed; 
+  bottom:0px;
+  height:44px;
+  background: #fff;
+  font-size: 12px; 
+  border-top: 0.5px solid #F2F2F2;
+}

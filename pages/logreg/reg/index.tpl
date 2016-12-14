@@ -1,0 +1,35 @@
+
+<div id="app">
+<div class="w-320" style="background: #fff;">
+    <div class="xm-header">
+        <a href="login.html"><div class="xm-backtext fl" style="color: #000; font-size: 11px;">取消</div></a>
+       注册
+       <a href="javascript:;"><div class="xm-backtext0 fr" style="color: #000; font-size: 11px;"></div></a> 
+    </div>
+    <div class="w-100">
+    <div class="w-300">
+        <div class="xm-ps" style="position:relative;">
+            <li class="xm-li xm-li1">
+                <input type="text" name="fy-ipone" id="fy-ipone" placeholder="输入手机号" />
+                <a href="javascript:;" class="xm-set0">发送验证码</a>
+            </li>
+            <li class="xm-li" style="border-bottom:0.5px solid #F2F2F2;">
+                <input type="text" name="fy-yanzhengma" placeholder="输入验证码" id="sendMsg"/>
+                <i class="xm-yzm">验证码错误</i>
+            </li>
+            <li class="xm-li" style="border-bottom: 0.5px solid #F2F2F2;">
+                <input type="" name="fy-yanzhengma" placeholder="输入密码"  id="pwd"/>
+                <i class="xm-password">密码错误</i>
+            </li>
+            <li class="xm-li" style="border-bottom: 0.5px solid #F2F2F2;">
+                <input type="" name="fy-yanzhengma" placeholder="再次输入密码"  id="pwd"/>
+                <i class="xm-password">密码错误</i>
+            </li>
+            <div class="xm-regagree"><i></i>同意<em>《用户协议》</em></div>
+            <a href="javascript:;"><li class="xm-reg">注册</li></a>
+        </div>
+    </div>
+    </div>
+</div>
+
+</div>
